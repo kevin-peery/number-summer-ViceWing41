@@ -7,13 +7,19 @@
   <title>Number Summer</title>
 </head>
 <body>
-  <form>
-    <label>Enter starting number:</label><br>
-    <input type="number"><br><br>
-    <label>Enter ending number:</label><br>
-    <input type="number"><br><br>
+  <form action="#">
+    <div>
+      <label for="minimum">Minimum value</label><br>
+      <input type="number" id="minimum">
+    </div>
+    <br>
+    <div>
+      <label for="maximum">Maximum value</label><br>
+      <input type="number" id="maximum">
+    </div>
+    <br>
     <input type="submit" value="Answer"><input type="reset" value="Reset"><br>
-    <output type="number"></output>
+    <output></output>
   </form>
   <script src="./scripts.js"></script>
 </body>

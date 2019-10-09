@@ -1,10 +1,10 @@
 //Declare function
-function numberSummer(start, end) {
+function numberSummer(start = 1, end = 10, interval = 1) {
   //Declare variable
   let sum = 0;
 
   //Loop
-  for (let i = start; i <= end; i++) {
+  for (let i = start; i <= end; i += interval) {
     //Calculate
     sum += i;
   }
@@ -14,4 +14,4 @@ function numberSummer(start, end) {
 }
 
 //Invoke function
-numberSummer(2, 100);
+numberSummer(2, 100, 2);
